@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActualTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomiseActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionMenuTextColor">#fff</item>
+       <item name="android:actionMenuTextAppearance">@style/CustomActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActualTheme.OverFlow</item>
+
+
+
+    </style>
+
+
+    <style name="CustomiseActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#eb7313</item>
+
+    </style>
+
+
+
+    <style name="ActualTheme.OverFlow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+
+
+
+</resources>

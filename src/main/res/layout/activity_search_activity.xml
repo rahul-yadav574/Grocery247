@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="?android:attr/actionBarSize"
+    android:paddingBottom="0dp"
+    tools:context="com.example.singh.Groz247.Search_activity">
+
+
+    <ListView
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/verticalprodList"
+        android:background="@android:color/white"
+        android:scrollbars="none"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:dividerHeight="3dp"
+        />
+
+    <TextView
+        android:id="@+id/noProductForSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="wqljgduwqjgdcukwjcwguk"
+        android:visibility="gone"
+        />
+
+
+
+    <!--  <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/checkb"
+          android:text="Check Length"/>
+  -->
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.singh.Groz247.Category_list">
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/aboutuslink"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mycart"
+        android:orderInCategory="300"
+        android:title="My Cart"
+        android:icon="@drawable/cart"
+        android:showAsAction="always" />
+    <item
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:orderInCategory="200"
+        android:title="@string/abc_search_hint"
+        android:showAsAction="always"
+        android:id="@+id/seaarchIcon"
+        />
+
+
+
+</menu>

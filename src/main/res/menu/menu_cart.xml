@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.singh.Groz247.Category_list">
+    <item
+        android:id="@+id/CheckOutMenuButton"
+        android:title="@string/faq"
+
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        />
+
+
+
+
+</menu>

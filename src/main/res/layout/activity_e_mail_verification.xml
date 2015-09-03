@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.singh.Groz247.e_mail_verification"
+    android:orientation="vertical"
+    android:layout_marginTop="?android:actionBarSize"
+    >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp">
+        <EditText
+            android:id="@+id/mainmailinput"
+            android:hint="@string/mailEnterHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/background_dark"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/mainpasswordinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/passwordEnterHint"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/PlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeOrderButton"
+            android:textColor="@android:color/background_dark"
+            android:background="@drawable/selector_transparent_button"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:id="@+id/newuserregistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/NewUserButton"
+            android:layout_below="@+id/PlaceOrder"
+            android:background="@drawable/selector_transparent_button"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:layout_marginLeft="100dp"
+            />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/totalamountString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#55000000"/>
+
+        <TextView
+            android:layout_below="@+id/totalamountString"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ShippingHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#55000000"/>
+
+
+        <TextView
+            android:layout_below="@+id/ShippingHint"
+            android:layout_marginTop="10dp"
+            android:id="@+id/paybleAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/hintExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:text="@string/hintExtra"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

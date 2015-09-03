@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"><b>24groz7</b></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="faq">CHECKOUT</string>
+    <string name="addressinfo">My Addresses</string>
+    <string name="ratinglink">Rate Us</string>
+    <string name="aboutuslink">Help</string>
+    <string name="ordersinfo">My Ordres</string>
+    <string name="notifytile"><b>Click Update To Add Items</b></string>
+    <string name="title_activity_category_list">24groz7</string>
+    <string name="title_activity_product_show_">Product Screen</string>
+    <string name="hinttext"><b>Tap Basket to Buy Any Item</b></string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="Activity_User_details">Delievery Details</string>
+    <string name="title_activity_e_mail_verification">Log In</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_choose_time_slot">ChooseTimeSlot</string>
+    <string name="placeOrderTile">PLACE ORDER</string>
+    <string name="ChooseSlotTile">Choose A Time Slot For Delievery</string>
+    <string name="SHOPMORETILE">Shop More</string>
+    <string name="emailTile">E-Mail :</string>
+    <string name="passwordtile">Password :</string>
+    <string name="NewUserButton">New User</string>
+    <string name="placeOrderButton">LOG IN</string>
+    <string name="decrementButton">-</string>
+    <string name="incrementButton">+</string>
+    <string name="placeOrder2">SIGN UP</string>
+    <string name="fullnameTile">Full Name :</string>
+    <string name="faltutitle">Total Amount To Be Paid :</string>
+    <string name="phonetile">Mobile No. :</string>
+    <string name="addresstile">Address For Delivery :</string>
+    <string name="emailtile">E-Mail :</string>
+    <string name="passwordtile2">Password :</string>
+    <string name="title_activity_invoice_show">InvoiceShow</string>
+    <string name="passwordEnterHint">Enter Password</string>
+    <string name="mailEnterHint">Enter E-Mail</string>
+    <string name="enterAddressHint">Enter Address</string>
+    <string name="enterPhoneHint">Enter Phone NO.</string>
+    <string name="enterNameHint">Enter Full Name</string>
+    <string name="timeSlot1">12:00 pm - 02:00 pm</string>
+    <string name="timeSlot2">06:00pm - 08:00pm</string>
+    <string name="timeSlot3">04:00am - 05:00pm</string>
+    <string name="timeSlot4">08:00pm - 09:00pm</string>
+    <string name="title_activity_search_activity">Search_activity</string>
+
+    <string name="hintExtra">*Delievery Charges Below Orders Of ₹ 250</string>
+
+    <string name="refresh">Go Back</string>
+
+</resources>
